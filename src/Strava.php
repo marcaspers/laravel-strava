@@ -5,7 +5,7 @@
 # 2019
 
 
-namespace CodeToad\Strava;
+namespace EndlessMiles\Strava;
 
 class Strava
 {

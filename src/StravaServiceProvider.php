@@ -4,7 +4,7 @@
 # Richie McMullen
 # 2019
 
-namespace CodeToad\Strava;
+namespace EndlessMiles\Strava;
 
 use GuzzleHttp\Client;
 

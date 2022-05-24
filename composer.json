@@ -1,5 +1,5 @@
 {
-    "name": "codetoad/strava",
+    "name": "endlessmiles/strava",
     "description": "A laravel package to access data from the Strava API.",
     "type": "library",
     "require": {
@@ -8,24 +8,24 @@
     },
     "autoload": {
         "psr-4": {
-            "CodeToad\\Strava\\": "src/"
+            "EndlessMiles\\Strava\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "CodeToad\\Strava\\StravaServiceProvider"
+                "EndlessMiles\\Strava\\StravaServiceProvider"
             ],
             "aliases": {
-                "Strava": "CodeToad\\Strava\\StravaFacade"
+                "Strava": "EndlessMiles\\Strava\\StravaFacade"
             }
         }
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Richie McMullen",
-            "email": "richiemcmullen007@gmail.com"
+            "name": "Marco Caspers",
+            "email": "mail@marcocaspers.com"
         }
     ],
     "minimum-stability": "dev"
